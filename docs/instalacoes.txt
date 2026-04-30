@@ -1,2 +1,6 @@
-### Angular Material - v.17
+### Angular Material - v.17 - Ref: https://v17.material.angular.dev/guide/getting-started
     - ng add @angular/material
+
+### Tailwind - v.3 - Ref: https://v3.tailwindcss.com/docs/guides/angular
+    - npm install -D tailwindcss@3 postcss autoprefixer
+    - npx tailwindcss init
