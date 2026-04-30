@@ -1,12 +1,13 @@
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
-
-import { AppComponent } from './app.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
 import { AppRoutingModule } from './app-routing.module';
 import { ComponentsModule } from './components/components.module';
 import { AngularMaterialModule } from './angular-material/angular-material.module';
+
+import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { AngularMaterialModule } from './angular-material/angular-material.modul
     BrowserModule,
     AppRoutingModule,
     ComponentsModule,
+    HttpClientModule,
     AngularMaterialModule,
   ],
   providers: [
