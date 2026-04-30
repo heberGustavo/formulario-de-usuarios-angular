@@ -1,6 +1,6 @@
 import { CountriesList } from "../../types/countries-list";
-import { IBaseCountriesResponse } from "../base-countries-response.interface";
+import { IBaseResponse } from "../base-response.interface";
 
-export interface ICountriesResponse extends IBaseCountriesResponse {
+export interface ICountriesResponse extends IBaseResponse {
     data: CountriesList;
 }
