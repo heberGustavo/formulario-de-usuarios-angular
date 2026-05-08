@@ -9,6 +9,10 @@ import { AngularMaterialModule } from './angular-material/angular-material.modul
 
 import { AppComponent } from './app.component';
 
+import localePt from '@angular/common/locales/pt';
+import { registerLocaleData } from '@angular/common';
+registerLocaleData(localePt);
+
 @NgModule({
   declarations: [
     AppComponent
