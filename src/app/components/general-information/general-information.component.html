@@ -1,36 +1,15 @@
 <div class="p-4">
     <div class="p-4 grid lg:grid-cols-3 gap-4">
-        <div>
-            <p class="text-xl font-semibold">Nome:</p>
-            <p class="text-lg">Fulano</p>
-        </div>
-        <div>
-            <p class="text-xl font-semibold">Email:</p>
-            <p class="text-lg">{{ 'fulano@example.com' }}</p>
-        </div>
+        <app-user-info-item label="Nome" value="Fulano"></app-user-info-item>
+        <app-user-info-item label="Email" value="fulano@example.com"></app-user-info-item>
     </div>
     <div class="p-4 grid lg:grid-cols-3 gap-4">
-        <div>
-            <p class="text-xl font-semibold">País:</p>
-            <p class="text-lg">Brasil</p>
-        </div>
-        <div>
-            <p class="text-xl font-semibold">Estado:</p>
-            <p class="text-lg">São Paulo</p>
-        </div>
+        <app-user-info-item label="País" value="Brasil"></app-user-info-item>
+        <app-user-info-item label="Estado" value="São Paulo"></app-user-info-item>
     </div>
     <div class="p-4 grid lg:grid-cols-3 gap-4">
-        <div>
-            <p class="text-xl font-semibold">Estado Civil:</p>
-            <p class="text-lg">Solteiro</p>
-        </div>
-        <div>
-            <p class="text-xl font-semibold">Renda Mensal:</p>
-            <p class="text-lg">R$ 3.000,00</p>
-        </div>
-        <div>
-            <p class="text-xl font-semibold">Data de Nascimento:</p>
-            <p class="text-lg">01/01/1990</p>
-        </div>
+        <app-user-info-item label="Estado Civil" value="Solteiro"></app-user-info-item>
+        <app-user-info-item label="Renda Mensal" value="R$ 3.000,00"></app-user-info-item>
+        <app-user-info-item label="Data de Nascimento" value="01/01/1990"></app-user-info-item>
     </div>
 </div>
