@@ -8,7 +8,7 @@
       <div class="p-4">
         <mat-tab-group [(selectedIndex)]="currentTabIndex">
           <mat-tab label="Geral">
-            <app-general-information></app-general-information>
+            <app-general-information [user]="usersList[0]"></app-general-information>
           </mat-tab>
           <mat-tab label="Contatos">CONTATOS</mat-tab>
           <mat-tab label="Dependentes">DEPENDENTES</mat-tab>

@@ -1,15 +1,15 @@
 <div class="p-4">
     <div class="p-4 grid lg:grid-cols-3 gap-4">
-        <app-user-info-item label="Nome" value="Fulano"></app-user-info-item>
-        <app-user-info-item label="Email" value="fulano@example.com"></app-user-info-item>
+        <app-user-info-item label="Nome" [value]="user?.name"></app-user-info-item>
+        <app-user-info-item label="Email" [value]="user?.email"></app-user-info-item>
     </div>
     <div class="p-4 grid lg:grid-cols-3 gap-4">
-        <app-user-info-item label="País" value="Brasil"></app-user-info-item>
-        <app-user-info-item label="Estado" value="São Paulo"></app-user-info-item>
+        <app-user-info-item label="País" [value]="user?.country"></app-user-info-item>
+        <app-user-info-item label="Estado" [value]="user?.state"></app-user-info-item>
     </div>
     <div class="p-4 grid lg:grid-cols-3 gap-4">
-        <app-user-info-item label="Estado Civil" value="Solteiro"></app-user-info-item>
-        <app-user-info-item label="Renda Mensal" value="R$ 3.000,00"></app-user-info-item>
-        <app-user-info-item label="Data de Nascimento" value="01/01/1990"></app-user-info-item>
+        <app-user-info-item label="Estado Civil" [value]="user?.maritalStatus?.toString()"></app-user-info-item>
+        <app-user-info-item label="Renda Mensal" [value]="user?.monthlyIncome?.toString()"></app-user-info-item>
+        <app-user-info-item label="Data de Nascimento" [value]="user?.birthDate"></app-user-info-item>
     </div>
 </div>
