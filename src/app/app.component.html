@@ -2,12 +2,14 @@
   
   <mat-card>
     <mat-card-content>
-      <div class="p-4 bg-orange-400">
+      <div class="p-4">
         <app-users-list [usersList]="usersList"></app-users-list>
       </div>
-      <div class="p-4 bg-green-400">
+      <div class="p-4">
         <mat-tab-group [(selectedIndex)]="currentTabIndex">
-          <mat-tab label="Geral">GERAL</mat-tab>
+          <mat-tab label="Geral">
+            <app-general-information></app-general-information>
+          </mat-tab>
           <mat-tab label="Contatos">CONTATOS</mat-tab>
           <mat-tab label="Dependentes">DEPENDENTES</mat-tab>
         </mat-tab-group>
