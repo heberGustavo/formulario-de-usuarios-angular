@@ -6,12 +6,14 @@ import { AngularMaterialModule } from "../angular-material/angular-material.modu
 import { UsersListComponent } from './users-list/users-list.component';
 import { GeneralInformationComponent } from './general-information/general-information.component';
 import { UserInfoItemComponent } from './user-info-item/user-info-item.component';
+import { ContactInformationsComponent } from './contact-informations/contact-informations.component';
 
 @NgModule({
     declarations: [
         UsersListComponent,
         GeneralInformationComponent,
-        UserInfoItemComponent
+        UserInfoItemComponent,
+        ContactInformationsComponent
     ],
     imports: [
         PipesModule,
@@ -21,6 +23,7 @@ import { UserInfoItemComponent } from './user-info-item/user-info-item.component
     exports: [
         UsersListComponent,
         GeneralInformationComponent,
+        ContactInformationsComponent,
     ],
 })
 export class ComponentsModule {
