@@ -1,3 +1,4 @@
+import { AddressList } from "../../types/address-list";
 import { IPhoneList } from "../../types/phonets-list";
 import { IAddress } from "./address.interface";
 import { IDependent } from "./dependent.interface";
@@ -11,6 +12,6 @@ export interface IUser {
     monthlyIncome: number;
     birthDate: string;
     phoneList: IPhoneList;
-    addressList: IAddress[];
+    addressList: AddressList;
     dependentsList: IDependent[];
 }
