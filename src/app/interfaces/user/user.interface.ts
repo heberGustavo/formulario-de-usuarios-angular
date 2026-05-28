@@ -1,7 +1,6 @@
 import { AddressList } from "../../types/address-list";
+import { DependentsList } from "../../types/depententes-list";
 import { IPhoneList } from "../../types/phonets-list";
-import { IAddress } from "./address.interface";
-import { IDependent } from "./dependent.interface";
 
 export interface IUser {
     name: string;
@@ -13,5 +12,5 @@ export interface IUser {
     birthDate: string;
     phoneList: IPhoneList;
     addressList: AddressList;
-    dependentsList: IDependent[];
+    dependentsList: DependentsList;
 }

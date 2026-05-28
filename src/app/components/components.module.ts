@@ -9,6 +9,7 @@ import { UserInfoItemComponent } from './user-info-item/user-info-item.component
 import { ContactInformationsComponent } from './contact-informations/contact-informations.component';
 import { PhoneListComponent } from './contact-informations/components/phone-list/phone-list.component';
 import { AddressListComponent } from './contact-informations/components/address-list/address-list.component';
+import { DependentsListComponent } from './dependents-list/dependents-list.component';
 
 @NgModule({
     declarations: [
@@ -17,7 +18,8 @@ import { AddressListComponent } from './contact-informations/components/address-
         UserInfoItemComponent,
         ContactInformationsComponent,
         PhoneListComponent,
-        AddressListComponent
+        AddressListComponent,
+        DependentsListComponent
     ],
     imports: [
         PipesModule,
@@ -28,6 +30,7 @@ import { AddressListComponent } from './contact-informations/components/address-
         UsersListComponent,
         GeneralInformationComponent,
         ContactInformationsComponent,
+        DependentsListComponent,
     ],
 })
 export class ComponentsModule {
